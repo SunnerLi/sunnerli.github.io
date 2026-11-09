@@ -126,15 +126,15 @@ places:
     lat: -43.5
     label: New Zealand
     label_side: left
-    title: Ten days on the South Island
+    title: Spring on the South Island
     place: South Island, New Zealand
-    date: Sep 2019
+    date: Sep–Oct 2019
     when: "2019-09"
-    text: A ten-day group tour around New Zealand's South Island.
+    text: Ten days around New Zealand's South Island in early spring, with snow still on the peaks above Lake Tekapo, Queenstown between the mountains and the lake, and the clouds over Milford Sound.
     photos:
       - Lake Tekapo
-      - Snowy peaks on the road to Aoraki / Mount Cook
       - Queenstown waterfront on Lake Wakatipu
+      - Mitre Peak in the clouds, Milford Sound
 
   - id: sydney
     status: next
