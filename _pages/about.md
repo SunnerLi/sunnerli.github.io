@@ -21,7 +21,7 @@ outside_the_lab: true # includes the travel map (_includes/outside_the_lab.liqui
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm a researcher at [Chunghwa Telecom](https://www.cht.com.tw/en/home/cht) in Taoyuan, Taiwan. I'm interested in making deep learning work where textbook assumptions break. Right now, I focus on small, efficient models for on-device AI agents and on keeping those agents secure. I also spent about four years working on generative models, and I still follow new work in that area.
+I'm a researcher at [Chunghwa Telecom](https://www.cht.com.tw/en/home/cht) in Taoyuan, Taiwan. I'm interested in making deep learning work where textbook assumptions break. Right now, I focus on small, efficient models for on-device AI agents and on keeping those agents secure. I also spent about three years working on generative models.
 
 Before that, I spent five years at [MediaTek](https://www.mediatek.com/), first as a computer vision and deep learning research engineer (data-driven RAW denoising for camera ISPs), then as an AI software engineer building LLM tools used in production. I received my M.S. from the Institute of Computer Science and Engineering at [National Chiao Tung University](https://www.nycu.edu.tw/nycu/en/index), advised by [Prof. Yu-Tai Ching](https://www.cs.nycu.edu.tw/members/detail/ytc) and working with [Prof. Wei-Chen Chiu](https://walonchiu.github.io/) and [Dr. Li Su](https://homepage.iis.sinica.edu.tw/pages/lisu/index_en.html), and my B.S. from [National Taipei University](https://new.ntpu.edu.tw/), where I worked with [Prof. Bor-Shing Lin](https://web.ntpu.edu.tw/~bslin/).
 
