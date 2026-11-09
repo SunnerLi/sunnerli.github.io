@@ -58,8 +58,16 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>selected publications</h2>
+      <h2>publications</h2>
       {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Other contributions: papers I contributed to without authorship (bib field contribution={true}) -->
+    {% if page.other_contributions %}
+      <h2>other contributions</h2>
+      <div class="publications">
+        {% bibliography --group_by none --query @*[contribution=true]* %}
+      </div>
     {% endif %}
 
     <!-- Outside the lab: travel map (_includes/outside_the_lab.liquid) -->

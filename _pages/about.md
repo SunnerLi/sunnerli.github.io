@@ -16,6 +16,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+other_contributions: true # papers marked contribution={true} (acknowledged, not authored)
 outside_the_lab: true # includes the travel map (_includes/outside_the_lab.liquid)
 social: true # includes social icons at the bottom of the page
 ---
