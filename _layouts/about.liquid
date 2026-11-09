@@ -58,10 +58,13 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
+      <h2>selected publications</h2>
       {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Outside the lab: travel map (_includes/outside_the_lab.liquid) -->
+    {% if page.outside_the_lab %}
+      {% include outside_the_lab.liquid %}
     {% endif %}
 
     <!-- Social -->

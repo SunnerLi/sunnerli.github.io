@@ -1,0 +1,183 @@
+# "outside the lab" map on the home page (_includes/outside_the_lab.liquid).
+#
+# status: visited | next | someday
+# type:   ski | hike | travel | conf
+# lon/lat: where the pin goes. group: jp puts the pin on the enlarged Japan.
+# label_side: where the map label sits (above | below | left | right).
+# when:   sort key for the list (newest first), YYYY-MM.
+# photos: alt text for assets/img/outside_the_lab/<id>/1.jpg, 2.jpg, ...
+#         The first photo is the cover shown in the list view.
+
+home:
+  name: Taiwan
+  lon: 121.0
+  lat: 23.7
+
+places:
+  - id: kansai
+    status: visited
+    type: hike
+    lon: 135.6
+    lat: 34.9
+    group: jp
+    label: Kyoto · Osaka
+    label_side: below
+    title: Expo 2025 and Daimonji-yama
+    place: Osaka & Kyoto, Japan
+    date: Aug 2025
+    when: "2025-08"
+    text: Expo 2025 in Osaka, then the hike up Daimonji-yama for the view over Kyoto.
+    photos:
+      - The Daimonji fire bowl above Kyoto
+      - Selfie with Myaku-Myaku at Expo 2025
+      - The Grand Ring at Expo 2025 at dusk
+
+  - id: karuizawa
+    status: visited
+    type: ski
+    lon: 139.0
+    lat: 36.1
+    group: jp
+    label: Karuizawa
+    label_side: right
+    title: Skiing in Karuizawa
+    place: Tokyo & Karuizawa, Japan
+    date: Dec 2024
+    when: "2024-12"
+    text: A few days in Tokyo, then up to Karuizawa for the slopes.
+    photos:
+      - Blue sky over the Karuizawa slopes
+      - Selfie in helmet on the slopes
+      - Hozomon Gate at Senso-ji, Tokyo
+
+  - id: sendai
+    status: visited
+    type: travel
+    lon: 140.6
+    lat: 38.4
+    group: jp
+    label: Sendai
+    label_side: above
+    title: Cherry blossoms in Sendai
+    place: Sendai, Japan
+    date: Apr 2024
+    when: "2024-04"
+    text: Chasing the cherry blossoms in Sendai.
+    photos:
+      - Cherry tree in full bloom, Sendai
+      - Selfie under the cherry blossoms
+      - Weeping cherry by a temple
+
+  - id: tahoe
+    status: visited
+    type: travel
+    lon: -121.0
+    lat: 38.6
+    label: Tahoe & Bay Area
+    label_side: above
+    title: Lake Tahoe and the Bay Area
+    place: Lake Tahoe & the Bay Area, USA
+    date: Dec 2023
+    when: "2023-12-18"
+    text: "After NeurIPS: three days at Lake Tahoe, then the Bay Area before Christmas."
+    photos:
+      - Lake Tahoe through the pines
+      - Snow-covered trees at Heavenly
+      - Selfie with the yellow Google bikes
+
+  - id: nola
+    status: visited
+    type: conf
+    lon: -90.1
+    lat: 30.0
+    label: New Orleans
+    label_side: right
+    title: NeurIPS 2023
+    place: Houston & New Orleans, USA
+    date: Dec 2023
+    when: "2023-12-10"
+    text: NeurIPS 2023, with our workshop paper on fast SoC thermal simulation, after a few days in Houston, including Space Center Houston.
+    photos:
+      - French Quarter balconies at dusk
+      - At the NeurIPS 2023 welcome sign
+      - Space shuttle on the NASA 747 at Space Center Houston
+
+  - id: uknl
+    status: visited
+    type: travel
+    lon: 2.0
+    lat: 52.0
+    label: UK & Netherlands
+    label_side: left
+    title: Graduation trip
+    place: United Kingdom & the Netherlands
+    date: Oct 2019
+    when: "2019-10"
+    text: A self-planned graduation trip through the Netherlands and the UK.
+    photos:
+      - In front of King's College Chapel, Cambridge
+      - Canal and thatched houses in Giethoorn
+      - Windmills along the canal
+
+  - id: nz
+    status: visited
+    type: travel
+    lon: 170.5
+    lat: -43.5
+    label: New Zealand
+    label_side: left
+    title: Ten days on the South Island
+    place: South Island, New Zealand
+    date: Sep 2019
+    when: "2019-09"
+    text: A ten-day group tour around New Zealand's South Island.
+    photos:
+      - Lake Tekapo
+      - Snowy peaks on the road to Aoraki / Mount Cook
+      - Queenstown waterfront on Lake Wakatipu
+
+  - id: sydney
+    status: next
+    type: conf
+    lon: 151.2
+    lat: -33.9
+    label: Sydney
+    label_side: left
+    title: "Next stop: NeurIPS 2026"
+    place: Sydney, Australia
+    date: Dec 2026
+    text: Presenting two workshop papers. Come say hi at the posters!
+
+  - id: iceland
+    status: someday
+    type: travel
+    lon: -19.0
+    lat: 64.9
+    label: Iceland
+    label_side: right
+    title: Iceland Ring Road trip
+    place: Someday, hopefully
+    text: "A dream: driving the whole Ring Road around Iceland, ideally with good company."
+
+  - id: sapporo
+    status: someday
+    type: ski
+    lon: 141.35
+    lat: 43.06
+    group: jp
+    label: Sapporo
+    label_side: right
+    title: Skiing at Sapporo Teine
+    place: Someday, hopefully
+    text: I'd love to ski Sapporo Teine and I'm looking for ski buddies. Say hi if you're in!
+
+  - id: seoul
+    status: someday
+    type: conf
+    lon: 127.0
+    lat: 37.5
+    label: Seoul
+    label_side: left
+    title: Seoul
+    place: Someday, hopefully
+    text: "I missed ICML 2026 at COEX. Next time: a paper at COEX, a bowl of samgyetang, and a stop at Olive Young."
